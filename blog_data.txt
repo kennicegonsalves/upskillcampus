@@ -1,0 +1,4 @@
+Title: My First Blog
+Content:
+<h1>Hello from my CMS!</h1><p>This is my first post.</p>
+------------------------------------

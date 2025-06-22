@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Blog Post</title>
+</head>
+<body>
+  <h2>New Blog Post</h2>
+  <form>
+    Title: <input type="text" id="title"><br><br>
+    Content:<br>
+    <textarea rows="10" cols="50" id="content"></textarea><br><br>
+    <button type="button" onclick="simulateSave()">Publish</button>
+  </form>
+
+  <script>
+    function simulateSave() {
+      let title = document.getElementById("title").value;
+      let content = document.getElementById("content").value;
+
+      alert("This would be sent to Java backend:\n\nTitle: " + title + "\nContent: " + content);
+    }
+  </script>
+</body>
+</html>
